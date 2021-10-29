@@ -215,9 +215,9 @@ label {
 .input-container {
     display: flex;
     height: 40px;
-    width: 255px;
+    width: 300px;
     margin: auto;
-    margin-top: 16px;
+    margin-top: 18px;
     padding: 0 8px 0 16px;
     /* border: 1px solid black; */
     border-radius: 10px;
@@ -233,7 +233,6 @@ label {
     height: 100%;
     margin: 0;
     border: none;
-    
     border-radius: 10px;
 }
 
