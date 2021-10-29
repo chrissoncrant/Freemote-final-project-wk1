@@ -218,7 +218,7 @@ label {
     width: 300px;
     margin: auto;
     margin-top: 18px;
-    padding: 0 8px 0 16px;
+    padding: 0 0 0 16px;
     /* border: 1px solid black; */
     border-radius: 10px;
     align-items: center;
@@ -240,10 +240,11 @@ label {
     outline: none;
 }
 
-.input-container img {
-    width: 15%;
+#submit-btn {
+    display: block;
+    width: 48px;
     height: auto;
-    cursor: pointer;
+    margin-right: 4px;
 }
 
 .social-icons-container {
@@ -269,6 +270,14 @@ footer {
     font-size: 14px;
     font-weight: 300;
     margin-bottom: 48px;
+}
+
+input[type="submit"] {
+    border: none;
+    display: block;
+    background-image: url(images/paper-airplane.png);
+    width: 48px;
+    height: 36px;
 }
 
 
