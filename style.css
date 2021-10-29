@@ -149,7 +149,7 @@ span.bold {
 .benefits-container {
     margin-top: 60px;
     background-color: #F2F8FF;
-    padding-bottom: 120px;
+    padding-bottom: 80px;
 }
 
 .benefit-box {
@@ -251,15 +251,14 @@ label {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    width: 176px;
-    margin: 24px auto 36px;
+    width: 192px;
+    margin: 24px auto 64px;
 }
 
 .social-icon {
-    height: 32px;
-    width: 32px;
+    height: 36px;
+    width: 36px;
     background-color: #d3dde95b;
-    padding: 2px;
     display: flex;
     align-items: center;
     justify-content: center;
