@@ -11,18 +11,27 @@
     <link href="style.css" rel="stylesheet" type="text/css">
 </head>
 <body>
-    <header>
+    <header class="desktop-padding">
         <h2>Max<span class="bold">Strong</span></h2>
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About Us</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+            <a href="#"><img src="https://assets.codepen.io/6060109/icon-search.png" alt="Search"></a>
+        </nav>
     </header>
-    <div class="outside-container contact-container">
-        <img src="https://assets.codepen.io/6060109/workout-vector-1.png" alt="">
+    <div class="outside-container contact-container desktop-padding">
+        <img id="mobile-contact-img" src="https://assets.codepen.io/6060109/workout-vector-1.png" alt="">
         <div class="content-container">
             <h1>The time to get <span class="bold">strong</span> has come</h1>
             <p class="margin-bottom">Lorem ipsum dolar sit amet, consectetur adipiscing elit. Viverra amet placerat mauris elementum diginissim.</p>
             <a href="#">Contact Us</a>
         </div>
+        <img id="desktop-contact-img" src="https://assets.codepen.io/6060109/workout-vector-1.png" alt="">
     </div>
-    <div class="outside-container options-container">
+    <div class="outside-container options-container desktop-padding">
         <img src="https://assets.codepen.io/6060109/workout-vector-2.png" alt="">
         <div class="content-container">
             <h2>Choose loads <span class="bold">for yourself</span></h2>
@@ -31,6 +40,7 @@
         </div>
     </div>
     <div class="outside-container trainer-container">
+        <img id="desktop-trainer-img" src="https://assets.codepen.io/6060109/trainer.png" alt="trainer with hands on hips looking like superman">
         <div class="content-container">
             <h2><span class="bold">Alexander Arnold</span></h2>
             <p id="trainer-bio">35 y.o. // 10 years experience</p>
@@ -38,31 +48,37 @@
             <p>Lorem ipsum dolar sit amet, consectetur adipiscing elit. Viverra amet placerat mauris elementum diginissim.</p>
             <a href="#">Sign up for training</a>
         </div>
-        <img src="https://assets.codepen.io/6060109/trainer.png" alt="trainer with hands on hips looking like superman">
+        <img id="mobile-trainer-img" src="https://assets.codepen.io/6060109/trainer.png" alt="trainer with hands on hips looking like superman">
     </div>
-    <div class="outside-container benefits-container">
-        <img src="https://assets.codepen.io/6060109/workout-vector-3.png" alt="cartoon girl jogging">
-        <div class="content-container">
+    <div class="outside-container benefits-container desktop-padding">
+        <img id="mobile-benefits-img" src="https://assets.codepen.io/6060109/workout-vector-3.png" alt="cartoon girl jogging">
+        <div class="benefits-header">
             <h2><span class="bold">The benefits</span> of exercise</h2>
-            <div class="benefit-box">
-                <h3>Increases business flexibility</h3>
-                <p>Lorem ipsum doaor sit amet, consectietur adipiscing elit. Viverra amet placerat mauris elementum dignissim.</p>
-            </div>
-            <div class="benefit-box mid-benefit-box">
-                <h3>Improves mental health</h3>
-                <p>Lorem ipsum doaor sit amet, consectietur adipiscing elit. Viverra amet placerat mauris elementum dignissim.</p>
-            </div>
-            <div class="benefit-box mid-benefit-box">
-                <h3>Provides more energy throughout the day</h3>
-                <p>Lorem ipsum doaor sit amet, consectietur adipiscing elit. Viverra amet placerat mauris elementum dignissim.</p>
-            </div>
-            <div class="benefit-box">
-                <h3>Helps to find new friends</h3>
-                <p>Lorem ipsum doaor sit amet, consectietur adipiscing elit. Viverra amet placerat mauris elementum dignissim.</p>
-            </div>
             <a href="#">Get Now</a>
         </div>
-        
+        <div class="content-container">
+            <h2 class="mobile-benefits-to-be-hidden"><span class="bold">The benefits</span> of exercise</h2>
+            <div class="benefit-boxes-container">
+                <div class="benefit-box">
+                    <h3>Increases business flexibility</h3>
+                    <p>Lorem ipsum doaor sit amet, consectietur adipiscing elit. Viverra amet placerat mauris elementum dignissim.</p>
+                </div>
+                <div class="benefit-box mid-benefit-box">
+                    <h3>Improves mental health</h3>
+                    <p>Lorem ipsum doaor sit amet, consectietur adipiscing elit. Viverra amet placerat mauris elementum dignissim.</p>
+                </div>
+                <div class="benefit-box mid-benefit-box">
+                    <h3>Provides more energy throughout the day</h3>
+                    <p>Lorem ipsum doaor sit amet, consectietur adipiscing elit. Viverra amet placerat mauris elementum dignissim.</p>
+                </div>
+                <div class="benefit-box">
+                    <h3>Helps to find new friends</h3>
+                    <p>Lorem ipsum doaor sit amet, consectietur adipiscing elit. Viverra amet placerat mauris elementum dignissim.</p>
+                </div>
+            </div>
+            <a class="mobile-benefits-to-be-hidden" href="#">Get Now</a>
+            <img id="desktop-benefits-img" src="https://assets.codepen.io/6060109/workout-vector-3.png" alt="cartoon girl jogging">
+        </div>  
     </div>
     <div class="outside-container btm-nav-container">
         <h2>Max<span class="bold">Strong</span></h2>
