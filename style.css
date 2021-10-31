@@ -302,7 +302,7 @@ label {
     cursor: pointer;
 }
 
-footer {
+#copyright {
     font-size: 14px;
     font-weight: 300;
     margin-bottom: 48px;
