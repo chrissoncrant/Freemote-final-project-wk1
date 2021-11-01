@@ -533,6 +533,10 @@ input[type="submit"] {
         width: 180px;
     }
 
+    .center-footer {
+        margin-left: -50px;
+    }
+
     .right-footer {
         text-align: left;
         padding-right: 22px;
